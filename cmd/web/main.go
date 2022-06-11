@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"udemy/pkg/handlers"
+
+	"github.com/jwmurray/udemy/pkg/handlers"
 )
 
 const portNumber = ":8000"

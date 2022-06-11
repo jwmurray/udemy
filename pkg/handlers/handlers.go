@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"udemy/pkg/render"
-	"udemy/pkg/utils"
+	"github.com/jwmurray/udemy/pkg/render"
+	"github.com/jwmurray/udemy/pkg/utils"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
