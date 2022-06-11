@@ -12,6 +12,9 @@ const portNumber = ":8000"
 // var Buf = new(byte.buffer)
 
 func main() {
+
+	// var app config.AppConfig
+
 	http.HandleFunc("/about/", handlers.About)
 	http.HandleFunc("/wardlist/", handlers.WardList)
 	http.HandleFunc("/callings/", handlers.CallingList)
